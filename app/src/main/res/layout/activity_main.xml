@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.irontec.roomexample.MainActivity">
+
+    <Button
+        android:id="@+id/get_story_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Story Info"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/store_stories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store Stories"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/store_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store Audios"
+
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/store_themes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store Themes"
+
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/store_moments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store Moments"
+
+        android:visibility="invisible" />
+
+</LinearLayout>
